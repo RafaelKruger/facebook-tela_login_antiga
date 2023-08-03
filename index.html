@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Login - Facebook</title>
+</head>
+<body>
+    <header class="main">
+        <div class="center">
+            <img title="Facebook" id="logo" src="./img/logo.svg" alt="Logotipo do facebook.">
+            <form id="form-login" method="post">
+                <div class="form-login-field">
+                    <label for="user">Email ou telefone</label>
+                    <input type="text" id="user" name="user" class="form-login-input">
+                    <div id="field-checkbox">
+                        <input type="checkbox" name="remember" id="remember" checked>
+                        <label for="remember">Mantenha-me conectado</label>
+                    </div>
+                </div>
+                <div class="form-login-field">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" class="form-login-input">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <div class="form-login-field">
+                    <button type="submit" class="form-login-button">Entrar</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <section id="main">
+        <div class="center">
+            <section id="left">
+                <p>No Facebook você pode se conectar e compartilhar o que quiser com quem é importante em sua vida.</p>
+                <img src="./img/image-body.png">
+            </section>
+            <section id="right">
+                <header>
+                    <h1>Abra uma conta</h1>
+                    <p>É gratuito e sempre será.</p>
+                </header>
+                <form id="form-register" method="post">
+                    <section id="name">
+                        <input type="text" name="first-name" placeholder="Nome">
+                        <input type="text" name="last-name" placeholder="Sobrenome">
+                    </section>
+                    <input type="email" name="email" id="email" class="big" placeholder="Digite seu e-mail ou celular">
+                    <input type="email" name="email-validation" id="email-validation" class="big" placeholder="Repita seu e-mail ou celular">
+                    <input type="password" name="password" id="password" class="big" placeholder="Digite sua senha">
+                    <input type="password" name="password-validation" id="password-validation" class="big" placeholder="Repita sua senha ">
+                    <section id="birth-date">
+                        <p>Data de nascimento</p>
+                        <select name="birth-day" id="birth-day" class="birth-date">
+                            <option>Dia</option><!-- As opções estão sendo inseridas por meio do javascript-->
+                        </select>
+                        <select name="birth-month" id="birth-month" class="birth-date">
+                            <option>Mês</option><!-- As opções estão sendo inseridas por meio do javascript-->
+                        </select>
+                        <select name="birth-year" id="birth-year" class="birth-date">
+                            <option>Ano</option><!-- As opções estão sendo inseridas por meio do javascript-->
+                        </select>
+                    </section>
+                    <section id="gender">
+                        <div>
+                            <input type="radio" name="gender" value="Feminine" id="feminine">
+                            <label for="feminine">Feminino</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" value="Masculine" id="masculine">
+                            <label for="masculine">Masculino</label>
+                        </div>
+                    </section>
+                    <section id="terms" class="gray small">
+                        <p>Ao clicar em abrir uma conta, você concorda com nossos <a href="#">Termos</a> e que leu a nossa <a href="#">Política de Dados</a> , incluindo o nosso <a href="#">Uso de Cookies</a> .</p>
+                    </section>
+                    <button type="submit" id="form-register-btn"><b>Abrir uma conta</b></button>
+                </form>
+                <footer>
+                    <p><a href="#">Crie uma Página</a> para uma celebridade, banda ou empresa.</p>
+                </footer>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            <section id="languages">
+                <a href="#">Português (Brasil)</a>
+                <a href="#">English (US)</a>
+                <a href="#">Español</a>
+                <a href="#">Français (France)</a>
+                <a href="#">中文(简体)</a>
+                <a href="#">العربية</a>
+                <a href="#">Italiano</a>
+                <a href="#">한국어</a>
+                <a href="#">Deutsch</a>
+                <a href="#">हिन्दी</a>
+                <a href="#">日本語</a>
+            </section>
+            <section>
+                <a href="#">Cookies</a>
+                <span class="light-blue">◀ Nós atualizamos nossa política. </span>
+                <a href="#">Saiba mais.</a>
+            </section>
+            <section id="menu">
+                <table cellspacing="0" cellpadding="0">
+                    <body>
+                        <tr>
+                            <td><a href="#">Cadastre-se</a></td>
+                            <td><a href="#">Entrar</a></td>
+                            <td><a href="#">Messenger</a></td>
+                            <td><a href="#">Facebook Lite</a></td>
+                            <td><a href="#">Celular</a></td>
+                            <td><a href="#">Encontrar amigos</a></td>
+                            <td><a href="#">Atalhos</a></td>
+                            <td><a href="#">Pessoas</a></td>
+                            <td><a href="#">Páginas</a></td>
+                            <td><a href="#">Locais</a></td>
+                            <td><a href="#">Jogos</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Locais</a></td>
+                            <td><a href="#">Celebridades</a></td>
+                            <td><a href="#">Grupos</a></td>
+                            <td><a href="#">Sobre</a></td>
+                            <td><a href="#">Criar anúncio</a></td>
+                            <td><a href="#">Criar Página</a></td>
+                            <td><a href="#">Desenvolvedores</a></td>
+                            <td><a href="#">Carreiras</a></td>
+                            <td><a href="#">Privacidade</a></td>
+                            <td><a href="#">Opções de anúncio</a></td>
+                            <td><a href="#">Termos</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Ajuda</a></td>
+                        </tr>
+                    </body>
+                </table>
+            </section>
+            <section id="copyright">
+                <span class="gray small">Facebook © 2016</span>
+                <a href="https://web.archive.org/web/20160531202922/https://pt-br.facebook.com/">Entrar no site original</a>
+            </section>
+        </div>
+    </footer>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
